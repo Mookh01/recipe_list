@@ -1,0 +1,65 @@
+
+body {
+  background-image: url("/cocina.jpg");
+}
+
+/*--------Modal CSS-----------*/
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+/*--------ACCORDION CSS-----------*/
+
+* {
+  box-sizing: border-box;
+  color: black;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+/*--------Centers and Shrinks the Recipe Box-----------*/
+.main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 50%;
+  max-width: 40em;
+  min-width: 15em;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+/*--------Centers and Sizes the Title of Recipe Box-----------*/
+.title {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 60px;
+  text-align: center;
+  font-family:  Shadows Into Light;
+  font-weight: 900;
+  font-size: 3.5em;
+  line-height: 1.2em;
+  padding: .50em;
+}
+
+/*--------Individual Panels with Recipe titles-----------*/
+.panel {
+  border: 3px solid black;
+}
+.spacer {
+  margin: 10px;
+}
+.spacer:hover {
+  font-weight: bold;
+}
+a.collapsed{
+  text-decoration: none;
+}
+a.collapsed:hover {
+  font-size: 1.1em;
+}
