@@ -21,11 +21,11 @@ User Story: All new recipes I add are saved in my browser's local storage. If I 
 
 # Challanges:
 There were a number of challanges with this application. Utilizing the react-bootstrap library appropriately, passing stateless functions and handling events.
-I learned on this project that you can use the keywords 'require' and 'import' to pass in libraries. Inside codepen, you get your react-bootstrap by passing them in as variables. 
+I learned that react has a number of ways you can'require', for instance using 'import' to pass in libraries.  
 
 Having watched several videos, most of which were using deprecated code, the way they passed in functions seemed a little confusing. After a little time I got a handle on the difference 
-between props and state. Simply put props are passed on from the parent component, state is when creating from within the component. This may not be the best description but from this 
-understanding I was able to move my functions from one component to the next. 
+between props and state. Simply put, props are passed on from the parent component, state is creating from within the component. This may not be the best description but from this 
+understanding I was able to move my functions from one component to the next and get the app to do what I wanted.  
 
 Handling events was the biggest learning curve;
 		- Panels Remain Open: eventKey={}  technically part of bootstrap but I noticed that using this with the <Accordion>, I was able to keep the Accordion closed, otherwise they all remained open
